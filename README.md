@@ -1,12 +1,5 @@
-TypeScript Adventure Game
-Welcome to Salman's Adventure 😎
+# TypeScript Adventure Game
 
-Table of Contents
-Introduction
-Installation
-How to Play
-Code Explanation
-License
 Introduction
 Salman's Adventure is a CLI-based text adventure game written in TypeScript. In this game, the player battles an opponent of their choice. The player can choose to attack, drink an energy drink to restore health, or run away from the battle. The game continues until either the player or the opponent loses all their life points.
 
