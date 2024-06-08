@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 console.log(`\n Welcome to Salman's Advanture 😎\n`);
 class Player {
@@ -43,13 +44,13 @@ else {
         if (question.option === "Attack") {
             let damage = Math.floor(Math.random() * 15) + 1;
             oponent.life -= damage;
-            console.log(`You attacked ${damage} damage!`);
+            console.log(`\nYou attacked ${damage} damage!`);
             console.log(`Opponent's life: ${oponent.life}`);
         }
         else if (question.option === "Energy Drink") {
             let heal = Math.floor(Math.random() * 15) + 1;
             player.life += heal;
-            console.log(`You takken an energy drink and restored ${heal} life!`);
+            console.log(`\nYou takken an energy drink and restored ${heal} life!`);
             console.log(`Your life: ${player.life}`);
         }
         else if (question.option === "Run") {
