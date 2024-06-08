@@ -1,4 +1,4 @@
-Salman's Adventure Game
+TypeScript Adventure Game
 Welcome to Salman's Adventure 😎
 
 Table of Contents
